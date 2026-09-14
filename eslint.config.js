@@ -1,31 +1,19 @@
-const tseslint = require('@typescript-eslint/eslint-plugin');
-const tsParser = require('@typescript-eslint/parser');
+const { FlatCompat } = require('@eslint/eslintrc');
+const path = require('path');
 
-/** @type {import('eslint').Linter.Config[]} */
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+});
+
 module.exports = [
+  ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
     files: ['**/*.{ts,tsx}'],
-    plugins: {
-      '@typescript-eslint': tseslint,
-    },
-    languageOptions: {
-      parser: tsParser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
-        ecmaFeatures: {
-          jsx: true,
-        },
-      },
-    },
     rules: {
       '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
-      'no-console': ['warn', { allow: ['error', 'warn'] }],
-      'prefer-const': 'warn',
-      'no-var': 'error',
     },
   },
   {
-    ignores: ['.next/', 'node_modules/', 'out/', '*.js', '*.mjs', 'eslint.config.js'],
+    ignores: ['.next/', 'node_modules/', 'out/'],
   },
 ];
