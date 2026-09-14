@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KWhyzor — AI Electricity Detective</title>
-  <meta name="description" content="KWhyzor investigates electricity bills, finds likely causes, and simulates smarter energy choices." />
+  <title>RushXArena — AI Electricity Detective</title>
+  <meta name="description" content="RushXArena investigates electricity bills, finds likely causes, and simulates smarter energy choices." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,20 +14,20 @@
   <div id="toast" class="toast"></div>
   <div id="logoutDialog" class="dialog-backdrop hidden" role="presentation">
     <section class="confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="logoutTitle" aria-describedby="logoutMessage">
-      <h2 id="logoutTitle">Log out of KWhyzor?</h2>
+      <h2 id="logoutTitle">Log out of RushXArena?</h2>
       <p id="logoutMessage">Are you sure you want to log out of your account?</p>
       <div class="button-row"><button class="choice" id="cancelLogout">Cancel</button><button class="primary" id="confirmLogout">Logout</button></div>
     </section>
   </div>
 
-  <button id="askKwhyzorFab" class="ai-fab" aria-label="Open Ask KWhyzor">⚡ Ask KWhyzor</button>
+  <button id="askRushXArenaFab" class="ai-fab" aria-label="Open Ask RushXArena">⚡ Ask RushXArena</button>
   <div id="aiAssistantModal" class="ai-modal hidden" aria-hidden="true">
     <div class="ai-panel" role="dialog" aria-modal="true" aria-labelledby="aiTitle">
       <div class="ai-header">
         <div class="ai-branding">
           <div class="ai-logo">⚡</div>
           <div>
-            <h3 id="aiTitle">Ask KWhyzor</h3>
+            <h3 id="aiTitle">Ask RushXArena</h3>
             <p>Your AI Electrical &amp; Energy Assistant</p>
           </div>
         </div>
@@ -45,7 +45,7 @@
       <div id="aiStatus" class="ai-status hidden"></div>
 
       <div class="ai-composer">
-        <textarea id="aiPrompt" rows="1" placeholder="Ask KWhyzor about your bill, appliances, EV, solar or electrical concepts..."></textarea>
+        <textarea id="aiPrompt" rows="1" placeholder="Ask RushXArena about your bill, appliances, EV, solar or electrical concepts..."></textarea>
         <button id="sendAiQuestion" class="primary">Send</button>
       </div>
     </div>
@@ -61,7 +61,7 @@
       <div class="auth-promo">
         <span class="eyebrow">✦ AI-POWERED ELECTRICITY INTELLIGENCE</span>
         <h1>Find out <span>why</span> your bill changed.</h1>
-        <p>KWhyzor turns confusing electricity bills into clear investigations, what-if scenarios, and practical energy insights.</p>
+        <p>RushXArena turns confusing electricity bills into clear investigations, what-if scenarios, and practical energy insights.</p>
         <div class="promo-points">
           <div>🔎 <b>Bill Detective</b><small>Find likely causes behind unusual increases.</small></div>
           <div>🧠 <b>What-If Simulator</b><small>Test energy choices before changing your routine.</small></div>
@@ -132,7 +132,7 @@
         <button class="primary full" id="upgradeBtn">Upgrade Now</button>
       </div>
       <button class="nav-item settings" data-page="settings">⚙ <span>Settings</span></button>
-      <button class="nav-item ai-nav-item" id="openAiAssistantFromNav">⚡ <span>Ask KWhyzor</span></button>
+      <button class="nav-item ai-nav-item" id="openAiAssistantFromNav">⚡ <span>Ask RushXArena</span></button>
       <button class="nav-item sidebar-logout" id="sidebarLogout">↪ <span>Logout</span></button>
     </aside>
 

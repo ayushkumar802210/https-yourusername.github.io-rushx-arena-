@@ -1,6 +1,6 @@
-# Ask KWhyzor ⚡
+# Ask RushXArena ⚡
 
-This project includes a production-style AI assistant layer that is integrated into the existing KWhyzor front-end without introducing a separate app.
+This project includes a production-style AI assistant layer that is integrated into the existing RushXArena front-end without introducing a separate app.
 
 ## What is included
 

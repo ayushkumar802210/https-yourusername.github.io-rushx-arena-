@@ -44,5 +44,5 @@
     return { changePercent: changePercent, leadingCause: signals[0].name, confidence: confidence, signals: signals, missing: total < 3 ? "Add appliance hours or tariff details to improve confidence." : "Confirm the usage change against your meter or bill." };
   }
 
-  window.KWhyzorEngine = { applianceKwh: applianceKwh, billEstimate: billEstimate, scenario: scenario, evCharging: evCharging, solarScenario: solarScenario, investigate: investigate };
+  window.RushXArenaEngine = { applianceKwh: applianceKwh, billEstimate: billEstimate, scenario: scenario, evCharging: evCharging, solarScenario: solarScenario, investigate: investigate };
 }());

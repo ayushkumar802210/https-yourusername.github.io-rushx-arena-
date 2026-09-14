@@ -1,11 +1,11 @@
--- KWhyzor Supabase Database Migration
+-- RushXArena Supabase Database Migration
 -- ============================================================================
 -- CRITICAL: Run this entire SQL script in your Supabase Project > SQL Editor
 -- https://gnxiqzffkarsfrncpwgi.supabase.co
 -- ============================================================================
 --
 -- This migration creates all missing tables, functions, triggers, and storage
--- buckets required by the KWhyzor application.
+-- buckets required by the RushXArena application.
 --
 -- SAFE TO RUN MULTIPLE TIMES: All statements use IF NOT EXISTS / DROP IF EXISTS
 -- EXISTING DATA IS PRESERVED: No tables are dropped or truncated

@@ -1,4 +1,4 @@
-# KWhyzor Production Status
+# RushXArena Production Status
 
 ## Implemented and verified locally
 

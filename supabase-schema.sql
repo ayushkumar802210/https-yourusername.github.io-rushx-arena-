@@ -1,4 +1,4 @@
--- KWhyzor Supabase Database Schema
+-- RushXArena Supabase Database Schema
 -- ============================================================================
 -- SETUP INSTRUCTIONS (MUST READ)
 -- ============================================================================
@@ -476,7 +476,7 @@ create table if not exists public.bill_field_values (
   field_name text not null,
   value_text text,
   value_numeric numeric,
-  source text not null check (source in ('ACTUAL_FROM_BILL','USER_PROVIDED','CALCULATED_BY_KWHYZOR','USER_ESTIMATE','OCR_UNVERIFIED','NOT_AVAILABLE')),
+  source text not null check (source in ('ACTUAL_FROM_BILL','USER_PROVIDED','CALCULATED_BY_RUSHXARENA','USER_ESTIMATE','OCR_UNVERIFIED','NOT_AVAILABLE')),
   confidence text,
   evidence text,
   created_at timestamptz not null default now()

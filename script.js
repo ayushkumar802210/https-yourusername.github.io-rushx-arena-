@@ -1,4 +1,4 @@
-﻿const state = {
+const state = {
   userId: null,
   email: '',
   name: 'User',
@@ -10,7 +10,7 @@
   page: 'dashboard'
 };
 
-window.KWHYZOR_STATE = state;
+window.RUSHXARENA_STATE = state;
 
 function toast(message) {
   const target = document.getElementById('toast');

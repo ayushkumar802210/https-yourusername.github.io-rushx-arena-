@@ -1,4 +1,4 @@
-# KWhyzor Production Setup Guide
+# RushXArena Production Setup Guide
 
 ## Prerequisites
 

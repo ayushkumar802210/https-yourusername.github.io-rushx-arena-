@@ -100,7 +100,7 @@ export default function SignInPage() {
         <div className="mb-6 flex items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-xl font-black text-white">⚡</div>
           <div>
-            <div className="text-xl font-black text-slate-900">KWhyzor</div>
+            <div className="text-xl font-black text-slate-900">RushXArena</div>
             <div className="text-xs uppercase tracking-[0.18em] text-slate-500">Sign in</div>
           </div>
         </div>

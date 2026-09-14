@@ -13,7 +13,7 @@ export async function POST(request: NextRequest) {
   if (!parsed.success) return Response.json({ error: 'Invalid payment amount.' }, { status: 400 });
   if (env.PAYMENT_PROVIDER !== 'razorpay' || !env.PAYMENT_KEY_ID || !env.PAYMENT_KEY_SECRET) return Response.json({ error: 'Payment gateway is not configured.' }, { status: 503 });
 
-  const receipt = `kwhyzor_${user.id.slice(0, 8)}_${Date.now()}`;
+  const receipt = `rushxarena_${user.id.slice(0, 8)}_${Date.now()}`;
   const response = await fetch('https://api.razorpay.com/v1/orders', { method: 'POST', headers: { Authorization: `Basic ${Buffer.from(`${env.PAYMENT_KEY_ID}:${env.PAYMENT_KEY_SECRET}`).toString('base64')}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ amount: Math.round(parsed.data.amount * 100), currency: 'INR', receipt, notes: { user_id: user.id, plan: parsed.data.plan || '' } }) });
   if (!response.ok) return Response.json({ error: 'Payment gateway could not create an order.' }, { status: 502 });
   const order = await response.json() as { id: string; amount: number; currency: string };

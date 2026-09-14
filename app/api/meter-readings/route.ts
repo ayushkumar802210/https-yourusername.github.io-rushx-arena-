@@ -66,5 +66,5 @@ export async function POST(request: NextRequest) {
     await supabase.from('bill_verification_events').insert({ bill_id: bill.id, user_id: user.id, event_type: 'verified', event_data: { source: 'USER_PROVIDED' } });
   }
 
-  return Response.json({ ok: true, data, message: consumption === null ? 'Meter number saved. No electricity consumption or bill amount is available yet.' : 'Meter reading saved. Consumption is calculated by KWhyzor from the provided readings.' });
+  return Response.json({ ok: true, data, message: consumption === null ? 'Meter number saved. No electricity consumption or bill amount is available yet.' : 'Meter reading saved. Consumption is calculated by RushXArena from the provided readings.' });
 }

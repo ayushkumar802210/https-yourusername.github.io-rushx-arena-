@@ -41,7 +41,7 @@ export default function HomePage() {
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 text-lg font-black text-white">⚡</div>
             <div>
-              <div className="text-xl font-black tracking-tight">KWhyzor</div>
+              <div className="text-xl font-black tracking-tight">RushXArena</div>
               <div className="text-[11px] uppercase tracking-[0.18em] text-slate-500">Electricity bill intelligence</div>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function HomePage() {
             Your Electricity Bill. Your Data. Your Understanding.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-slate-600">
-            KWhyzor reads your real electricity bill, explains the charges, compares verified consumption and helps you understand what your electricity provider has actually billed you.
+            RushXArena reads your real electricity bill, explains the charges, compares verified consumption and helps you understand what your electricity provider has actually billed you.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="/signup" className="btn-primary">Upload Real Bill ⚡</a>
@@ -110,7 +110,7 @@ export default function HomePage() {
           <div className="max-w-2xl">
             <div className="text-sm font-bold uppercase tracking-[0.2em] text-brand-700">Real data pipeline</div>
             <h2 className="section-title mt-3">Evidence before explanation.</h2>
-            <p className="section-copy">KWhyzor never jumps from OCR to a confident conclusion. Every stage uses actual document evidence, confidence checks, and user verification before analysis.</p>
+            <p className="section-copy">RushXArena never jumps from OCR to a confident conclusion. Every stage uses actual document evidence, confidence checks, and user verification before analysis.</p>
           </div>
           <div className="mt-10 grid gap-3 md:grid-cols-3 xl:grid-cols-6">
             {workflowSteps.map((step, index) => (
@@ -146,12 +146,12 @@ export default function HomePage() {
       <section className="bg-slate-950 py-20 text-white" id="trust">
         <div className="container-shell">
           <div className="max-w-2xl">
-            <div className="text-sm font-bold uppercase tracking-[0.2em] text-brand-300">What KWhyzor can prove</div>
+            <div className="text-sm font-bold uppercase tracking-[0.2em] text-brand-300">What RushXArena can prove</div>
             <h2 className="section-title mt-3 text-white">Transparent, evidence-based limits.</h2>
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             <div className="rounded-3xl border border-slate-800 bg-white/5 p-6">
-              <h3 className="text-xl font-black">KWhyzor can determine</h3>
+              <h3 className="text-xl font-black">RushXArena can determine</h3>
               <ul className="mt-4 space-y-3 text-sm text-slate-200">
                 <li>✓ Information explicitly present on the bill</li>
                 <li>✓ Arithmetic calculations based on bill data</li>
@@ -162,7 +162,7 @@ export default function HomePage() {
               </ul>
             </div>
             <div className="rounded-3xl border border-slate-800 bg-white/5 p-6">
-              <h3 className="text-xl font-black">KWhyzor cannot determine automatically</h3>
+              <h3 className="text-xl font-black">RushXArena cannot determine automatically</h3>
               <ul className="mt-4 space-y-3 text-sm text-slate-200">
                 <li>✗ Information not present on the bill</li>
                 <li>✗ Hidden meter problems</li>
@@ -180,7 +180,7 @@ export default function HomePage() {
         <div className="max-w-2xl">
           <div className="text-sm font-bold uppercase tracking-[0.2em] text-brand-700">Consumer awareness</div>
           <h2 className="section-title mt-3">Bijli Bill Samajhna Har Consumer Ka Haq Hai.</h2>
-          <p className="section-copy">Every electricity consumer should be able to understand their bill. KWhyzor does not automatically accuse providers. It helps consumers understand the evidence in their own bills.</p>
+          <p className="section-copy">Every electricity consumer should be able to understand their bill. RushXArena does not automatically accuse providers. It helps consumers understand the evidence in their own bills.</p>
         </div>
         <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {educationTopics.map((topic) => (

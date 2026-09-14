@@ -29,14 +29,14 @@ export default function AssistantPage() {
     <main className="min-h-screen bg-slate-100 p-6">
       <div className="container-shell max-w-5xl">
         <div className="card-surface p-8">
-          <div className="text-sm font-bold uppercase tracking-[0.2em] text-brand-700">Ask KWhyzor ⚡</div>
+          <div className="text-sm font-bold uppercase tracking-[0.2em] text-brand-700">Ask RushXArena ⚡</div>
           <h1 className="mt-2 text-3xl font-black text-slate-900">Evidence-based electricity help</h1>
           <p className="mt-3 text-slate-600">The assistant uses verified bill data, deterministic calculations, and only responds with information available to the authenticated user.</p>
 
           <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-4">
             <textarea value={question} onChange={(event) => setQuestion(event.target.value)} className="w-full resize-none rounded-xl border border-slate-200 bg-white p-3 outline-none focus:border-brand-500" rows={5} placeholder="Ask about your electricity bill, meter reading, EV, solar, or tariff details..." />
             <div className="mt-4 flex justify-end">
-              <button className="btn-primary" onClick={ask} disabled={isAsking}>{isAsking ? 'Checking evidence...' : 'Ask KWhyzor'}</button>
+              <button className="btn-primary" onClick={ask} disabled={isAsking}>{isAsking ? 'Checking evidence...' : 'Ask RushXArena'}</button>
             </div>
             {answer ? <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4 text-sm text-slate-700">{answer}</div> : null}
           </div>

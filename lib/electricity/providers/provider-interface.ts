@@ -3,7 +3,7 @@ export type ConfidenceLevel = 'High' | 'Medium' | 'Low';
 export type EvidenceStatus =
   | 'Actual from bill'
   | 'User verified'
-  | 'Calculated by KWhyzor'
+  | 'Calculated by RushXArena'
   | 'Estimated'
   | 'Not available';
 

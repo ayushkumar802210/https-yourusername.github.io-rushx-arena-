@@ -27,7 +27,7 @@
 
     if (/hello|hi|hey|who are you|what can you do/.test(q)) {
       return {
-        answer: 'I am KWhyzor. I can help explain verified electricity bill data, but I need actual data from your bill or meter before I can analyze it.',
+        answer: 'I am RushXArena. I can help explain verified electricity bill data, but I need actual data from your bill or meter before I can analyze it.',
         assumptions: ['General greeting.'],
         confidence: 'High'
       };
@@ -45,7 +45,7 @@
   }
 
   if (typeof window !== 'undefined') {
-    window.KWhyzorAI = {
+    window.RushXArenaAI = {
       chat: (question) => generateOfflineAnswer(question),
       generateOfflineAnswer,
       getContext: () => ({ bills: [], appliances: [] })

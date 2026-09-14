@@ -1,4 +1,4 @@
-# KWhyzor Technical Architecture Plan
+# RushXArena Technical Architecture Plan
 
 ## 1. Current repository assessment
 
@@ -81,4 +81,4 @@ This repo already contains the product concept, a role-based admin design, and a
 
 ## 6. Implementation status in this workspace
 
-This workspace now includes the foundation for the Next.js architecture, while preserving the original KWhyzor project artifacts. The project remains pending final runtime verification because the Node.js toolchain is not currently installed in this environment.
+This workspace now includes the foundation for the Next.js architecture, while preserving the original RushXArena project artifacts. The project remains pending final runtime verification because the Node.js toolchain is not currently installed in this environment.

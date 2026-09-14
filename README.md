@@ -1,6 +1,6 @@
-# KWhyzor
+# RushXArena
 
-KWhyzor is an electricity intelligence platform for understanding bill changes, modeling appliance demand, and exploring energy scenarios. It labels calculations as estimates and keeps the reasoning visible.
+RushXArena is an electricity intelligence platform for understanding bill changes, modeling appliance demand, and exploring energy scenarios. It labels calculations as estimates and keeps the reasoning visible.
 
 ## Included now
 
@@ -23,7 +23,7 @@ For real accounts, create a Supabase project, run `supabase-schema.sql` in SQL E
 
 ## 👑 Super Admin Setup (Owner Only)
 
-KWhyzor includes a **Single Super Admin Access Control System** that restricts admin access to only the website owner's explicitly configured account.
+RushXArena includes a **Single Super Admin Access Control System** that restricts admin access to only the website owner's explicitly configured account.
 
 ### Configuration Steps
 
@@ -229,7 +229,7 @@ Protections are enforced at multiple levels:
 
 ### OAuth setup
 
-In Supabase Dashboard, open Authentication > Providers and enable Google and/or Facebook with credentials created in the provider console. Add the Supabase callback URL shown in the provider settings, and add the GitHub Pages URL (`https://ayushkumar802210.github.io/kwhyzor-ai-electricity-detective/`) under Authentication > URL Configuration as an allowed redirect URL. The app calls `signInWithOAuth` only when Supabase is configured; otherwise it shows a configuration-required message and never fakes social authentication. OAuth metadata is used to create a profile once, subject to the same profile RLS policy.
+In Supabase Dashboard, open Authentication > Providers and enable Google and/or Facebook with credentials created in the provider console. Add the Supabase callback URL shown in the provider settings, and add the GitHub Pages URL (`https://ayushkumar802210.github.io/rushxarena-ai-electricity-detective/`) under Authentication > URL Configuration as an allowed redirect URL. The app calls `signInWithOAuth` only when Supabase is configured; otherwise it shows a configuration-required message and never fakes social authentication. OAuth metadata is used to create a profile once, subject to the same profile RLS policy.
 
 ## Architecture
 
